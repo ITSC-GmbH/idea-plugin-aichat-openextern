@@ -14,15 +14,15 @@ Language / Sprache:
 
 `idea-plugin-aichat-openextern` is an IntelliJ IDEA plugin designed to quickly and seamlessly open the Markdown transcript (`transcript.md`) of the currently visible or most recent AI chat in an external editor (e.g., **Typora**, **VS Code**, **Obsidian**, **Neovim**). It also supports optional cleanup or filtering of the content.
 
-## Overview and User Perspective
+# Overview and User Perspective
 
-### Problem and Benefits
+## Problem and Benefits
 
 Documenting or further processing long chat histories within an IDE’s built-in AI chat can be cumbersome, as standard UI copy functions typically only capture individual responses. However, the IDE stores complete Markdown transcripts of all sessions at `~/.junie/sessions/<session_id>/transcript.md`.
 
 This plugin bridges that gap: with a single click or keyboard shortcut, it identifies the transcript for the currently focused chat tab and opens it directly in your preferred external application.
 
-### Key Features
+## Key Features
 
 - **Active Chat Detection:** Identifies the title of the chat tab currently open in the editor and maps it to the corresponding session ID via `~/.junie/sessions/index.jsonl`. 
 
