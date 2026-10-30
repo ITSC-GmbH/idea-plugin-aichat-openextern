@@ -1,4 +1,16 @@
-# AI Chat Open External (IntelliJ IDEA Plugin)
+---
+subject : "IntelliJ IDEA Plugins"
+title : "AI Chat Open External"
+author : "ITSC IT Systems Consulting GmbH"
+keywords: ["IntelliJ IDEA", "AI"]
+lang: "en"
+---
+
+Language / Sprache:
+
+- 🇬🇧 English
+
+- 🇩🇪 [Deutsch](./README.de.md)
 
 `idea-plugin-aichat-openextern` is an IntelliJ IDEA plugin designed to quickly and seamlessly open the Markdown transcript (`transcript.md`) of the currently visible or most recent AI chat in an external editor (e.g., **Typora**, **VS Code**, **Obsidian**, **Neovim**). It also supports optional cleanup or filtering of the content.
 
@@ -36,3 +48,35 @@ This plugin bridges that gap: with a single click or keyboard shortcut, it ident
 
    - or the absolute path, e.g., `/usr/bin/typora` or `/opt/typora/Typora`
 4. Click **Apply** or **OK**.
+
+# Issues and Feature Requests
+
+- If you encounter issues or have feature requests, please create a ticket in the `idea-plugin-aichat-openextern` GitHub project:
+  [https://github.com/ITSC-GmbH/idea-plugin-aichat-openextern](https://github.com/ITSC-GmbH/idea-plugin-aichat-openextern)
+- Before doing so, please check if a ticket regarding the same topic already exists.
+- In the event of errors, please describe how to reproduce the issue; screenshots and the problematic Markdown export are helpful.
+
+# Source Code Availability
+
+The source code for each release is freely available; you can download it from the "Releases" section of the GitHub project page: ["Releases"](https://github.com/ITSC-GmbH/idea-plugin-aichat-openextern/releases).
+
+# License
+
+The code is licensed under the MIT License - meaning you are free to use it however you wish, provided you do not remove my copyright notices or the license description itself.
+
+However, this license does not extend to the included third-party components. Detailed information can be found in the `licenses` subdirectory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
