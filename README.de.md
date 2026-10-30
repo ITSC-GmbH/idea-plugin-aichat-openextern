@@ -1,15 +1,21 @@
-# AI Chat Open External (IntelliJ IDEA Plugin)
+---
+subject : "IntelliJ IDEA Plugins"
+title : "AI Chat Open External"
+author : "ITSC IT Systems Consulting GmbH"
+keywords: ["IntelliJ IDEA", "AI"]
+lang: "de"
+---
 
 `idea-plugin-aichat-openextern` ist ein IntelliJ IDEA-Plugin zum schnellen und nahtlosen Öffnen des Markdown-Transkripts (`transcript.md`) des aktuell sichtbaren oder jüngsten AI-Chats in einem externen Editor (z. B. **Typora**, **VS Code**, **Obsidian**, **Neovim**). Zusätzlich kann eine Bereinigung / Filterung erfolgen.
 
-## Übersicht und Funktionsweise aus Anwendersicht
+# Übersicht und Funktionsweise aus Anwendersicht
 
-### Problemstellung und Nutzen
+## Problemstellung und Nutzen
 Im integrierten AI-Chat der IDE ist die Dokumentation und das Weiterverarbeiten längerer Chatverläufe oft umständlich, da UI-Kopierfunktionen meist nur einzelne Antworten erfassen. Die IDE speichert jedoch vollständige Markdown-Transkripte aller Sitzungen unter `~/.junie/sessions/<session_id>/transcript.md`.
 
 Dieses Plugin schließt die Lücke: Mit einem einzigen Klick oder Tastenkürzel wird das Transkript des aktuell fokussierten Chat-Reiters ermittelt und direkt im bevorzugten externen Programm gestartet.
 
-### Hauptfunktionen
+## Hauptfunktionen
 - **Erkennung des aktiven Chats:** Erkennt den Titel des im Editor-Tab geöffneten Chat-Tabs und ordnet ihn der passenden Sitzungs-ID in `~/.junie/sessions/index.jsonl` zu.
 
   > [!note]
@@ -28,3 +34,20 @@ Dieses Plugin schließt die Lücke: Mit einem einzigen Klick oder Tastenkürzel 
    - `code` (für Visual Studio Code)
    - oder den absoluten Pfad, z. B. `/usr/bin/typora` oder `/opt/typora/Typora`
 4. **Apply** bzw. **OK**.
+
+# Probleme und Änderungswünsche
+
+- Bei Problemen oder Änderungswünschen erstellen Sie ein Ticket im Github-Projekt `idea-plugin-aichat-openextern`:
+  [https://github.com/ITSC-GmbH/idea-plugin-aichat-openextern](https://github.com/ITSC-GmbH/idea-plugin-aichat-openextern)
+- Prüfen Sie zuvor, ob bereits ein anderes Ticket zum selben Thema existiert.
+- Bei Fehlern beschreiben Sie, wie das Problem nachvollzogen werden kann; Screenshots und der fehlerhafte Markdown-Export sind hilfreich.
+
+# Verfügbarkeit des Quellcodes
+
+Der Quellcode jedes Releases steht frei zur Verfügung; Sie können ihn auf der GitHub-Projektseite im Abschnitt ["Releases"](https://github.com/ITSC-GmbH/idea-plugin-aichat-openextern/releases) herunterladen.
+
+# Lizenz
+
+Der Code steht unter der MIT-Lizenz - das heißt, Sie können damit machen, was Sie wollen, sofern Sie meine Copyright-Hinweise und die Lizenzbeschreibung selbst nicht entfernen.
+
+Diese Lizenz erstreckt sich jedoch nicht auf die mitgelieferten Dritt-Partei-Komponenten. Genauere Informationen finden Sie im Unterverzeichnis `licenses`.
