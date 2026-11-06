@@ -24,7 +24,7 @@ body:
     attributes:
       label: IntelliJ IDEA Version
       description: Version of your IntelliJ IDEA installation
-      placeholder: 2026.3
+      placeholder: 2026.3.0
     validations:
       required: true
 
