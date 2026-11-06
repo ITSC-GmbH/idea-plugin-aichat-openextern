@@ -11,9 +11,9 @@ body:
         Please provide sufficient details so the request can be evaluated.
 
   - type: input
-    id: extension-version
+    id: plugin-version
     attributes:
-      label: Extension Version
+      label: Plugin Version
       description: Version to enhance
       placeholder: 1.0.0
     validations:
