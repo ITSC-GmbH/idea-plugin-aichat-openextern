@@ -11,33 +11,20 @@ body:
         Please provide all required information so the issue can be investigated efficiently.
 
   - type: input
-    id: extension-version
+    id: plugin-version
     attributes:
-      label: Extension Version
-      description: Version of the addon
+      label: Plugin Version
+      description: Version of the plugin
       placeholder: 1.0.0
     validations:
       required: true
 
   - type: input
-    id: intellij-idea-version
+    id: intellij-version
     attributes:
       label: IntelliJ IDEA Version
       description: Version of your IntelliJ IDEA installation
       placeholder: 2026.3
-    validations:
-      required: true
-
-  - type: dropdown
-    id: platform
-    attributes:
-      label: Operating System
-      description: Select all operating systems where the issue occurs
-      multiple: true
-      options:
-        - MS Windows
-        - MacOS
-        - Linux
     validations:
       required: true
 
